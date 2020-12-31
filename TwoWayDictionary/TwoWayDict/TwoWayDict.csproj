@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;net452;netstandard2.0</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>StrongNamingKey.snk</AssemblyOriginatorKeyFile>
+    <Version>0.0.2</Version>
+    <Description>Implements a "Two-way Dictionary", one that has constant conplexity item access from both the key and the value.</Description>
+    <PackageReleaseNotes>Added access to Keys and Values collections.</PackageReleaseNotes>
+    <Authors>Balint Nagy</Authors>
+    <Company />
+    <Copyright>Balint Nagy</Copyright>
+    <RepositoryUrl>https://github.com/balintn22/TwoWayDictionary</RepositoryUrl>
+    <PackageTags>collection dictionary</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
